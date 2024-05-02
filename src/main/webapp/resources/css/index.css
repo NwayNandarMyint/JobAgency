@@ -1,0 +1,60 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(141, 216, 106);
+     }
+     .txtpos{
+		text-align:center;
+	}
+#mainbox{
+    float: left;
+	font-size:40px;
+	cursor:pointer;
+	transition: all .6s;
+}
+h1{
+   color:white;
+   font-size:50px;
+   
+}
+.logo {
+	width: 60px;
+	/* Adjust the logo width as needed */
+	height: auto;
+	/* Maintain aspect ratio */
+}
+.sidemenu{
+    border-radius: 10px;
+	position:absolute;
+	height:auto;
+    margin-bottom: auto;
+	width:0px;
+	background-color:beige;
+	z-index:1;
+	padding-top:60px;
+	overflow-x:hidden;
+	transition: all .3s;
+}
+.sidemenu a{
+    border:0px solid none;
+	padding:6px 6px 6px 15px;
+    margin: 15px;
+	text-decoration:none;
+	font-size:20px;
+	color:black;
+	display:block;
+}
+.sidemenu a:hover{
+	color:rgb(250, 44, 44);
+	
+}	
+.sidemenu .closebtn	{
+    position:absolute;
+	top:0px;
+	right:0px;
+	font-size:40px;
+	margin-left:20px;
+}
+
+
